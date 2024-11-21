@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app >
+  <display-name>Tech4USirProject</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>welcome.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+<servlet-name>name</servlet-name>
+<servlet-class>com.main.FirstServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>name</servlet-name>
+<url-pattern>/login</url-pattern>
+</servlet-mapping>
+</web-app>

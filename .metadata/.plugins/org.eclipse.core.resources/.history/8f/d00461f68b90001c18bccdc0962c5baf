@@ -1,0 +1,42 @@
+package com.main;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+//@WebServlet("/login")
+public class RegisterServlet extends HttpServlet {
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) 
+			throws ServletException, IOException {
+		Connection con = ConnectionProvider1.getConnection();
+		System.out.println(con);
+		PrintWriter writer = resp.getWriter();
+		String name = req.getParameter("name");
+		String email = req.getParameter("email");
+		String phone = req.getParameter("phone");
+		String password = req.getParameter("password");
+		writer.print(con+""+name + " "+email+ " "+phone+ " "+password);
+		try {
+			PreparedStatement ps = con.prepareStatement("insert into formpage(name,email,phone,password) values(?,?,?,?)");
+			ps.setString(1, name);
+			ps.setString(2, email);
+			ps.setString(3, phone);
+			ps.setString(4, password);
+			int ep = ps.executeUpdate();
+			if(ep>0) 
+				resp.sendRedirect("welcome.html");
+			else 
+				writer.print("Somthing is wrong....!");
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  
+  <display-name>Servlet-Config-Context</display-name>
+  <welcome-file-list>
+    <welcome-file>goa</welcome-file>
+  </welcome-file-list>
+  
+  <context-param>
+      <param-name>app_name</param-name>
+      <param-value>WhatsApp</param-value>
+  </context-param>
+  
+  <servlet>
+  <servlet-name>servleta</servlet-name>
+  <servlet-class>ServletA</servlet-class>
+  
+  <init-param>
+  <param-name>website_name</param-name>
+  <param-value>Javatpoint</param-value>
+  </init-param>
+  
+   <init-param>
+  <param-name>rupee_in_one_doller</param-name>
+  <param-value>5</param-value>
+  </init-param>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>servleta</servlet-name>
+  <url-pattern>/goa</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>servletb</servlet-name>
+  <servlet-class>ServletB</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>servletb</servlet-name>
+  <url-pattern>/gob</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+</web-app>

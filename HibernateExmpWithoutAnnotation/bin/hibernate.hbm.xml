@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>
+
+
+	<class name="com.epam.Employee" table="user">
+		<id name="id">
+			<generator class="increment"></generator>
+		</id>
+		<property name="empname"></property>
+		<property name="compname"></property>
+		<property name="salary"></property>
+
+	</class>
+</hibernate-mapping>

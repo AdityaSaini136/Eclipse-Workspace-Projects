@@ -1,0 +1,9 @@
+package com.cart.constacts;
+
+public interface SQLConstatnts {
+
+	String INSERT_PRODUCT_SQL = "INSERT INTO PRODUCT(NAME,MFG_DATE,PRICE, QUANTITY) VALUES(?,?,?,?)";
+    String SELECT_PRODUCT_SQL ="select * from PRODUCT";
+	String DELETE_PRODUCT_SQL = "DELETE FROM PRODUCT WHERE ID=?";
+	String UPDATE_PRODUCT_SQL = "UPDATE PRODUCT SET NAME=?, MFG_DATE=?, PRICE=?, QUANTITY=? WHERE ID=?";
+}

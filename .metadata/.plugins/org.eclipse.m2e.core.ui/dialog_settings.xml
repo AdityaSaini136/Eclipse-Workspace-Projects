@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\ADITYA SAINI\eclipse-workspace\FirstSpringApp"/>
+			<item value="C:\Users\ADITYA SAINI\eclipse-workspace\SpringExmpBySuryaSir"/>
+			<item value="C:\Users\ADITYA SAINI\eclipse-workspace\HibernateExample\src\com\hb\entites\Client.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.apex.bulb.SpringAppBySurya"/>
+			<item value="com.apex.bulb.SpringAppBySuryaSir"/>
+			<item value="com.apex.bulb.SpringExmpMavenBySuryaSir"/>
+			<item value="com.apex.bulb.FirstSpringApp"/>
+			<item value="com.tut.xyz"/>
+			<item value="com.tut.TestDemoMavan"/>
+			<item value="com.tut.Test"/>
+			<item value="com.tut.FirstMavenProject"/>
+		</list>
+		<list key="groupId">
+			<item value="com.apex.bulb"/>
+			<item value="com.tut"/>
+		</list>
+		<list key="artifactId">
+			<item value="SpringAppBySurya"/>
+			<item value="SpringAppBySuryaSir"/>
+			<item value="SpringExmpMavenBySuryaSir"/>
+			<item value="FirstSpringApp"/>
+			<item value="xyz"/>
+			<item value="TestDemoMavan"/>
+			<item value="Test"/>
+			<item value="FirstMavenProject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\ADITYA SAINI\git\curd-paysafegroup"/>
+			<item value="D:\Spring-Boot\Tech4U"/>
+			<item value="D:\Spring-Boot\Employee"/>
+			<item value="D:\Spring-Boot\Library-service"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="531"/>
+		<item key="x" value="443"/>
+		<item key="y" value="10"/>
+	</section>
+</section>
